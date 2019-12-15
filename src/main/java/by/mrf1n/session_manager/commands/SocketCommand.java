@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+/**
+ * Абстрактный класс для выполнения комманды из сокета с телом
+ */
+
 @Data
 @Component
 public abstract class SocketCommand implements Command {

@@ -19,6 +19,10 @@ import org.springframework.web.server.ResponseStatusException;
 import java.math.BigInteger;
 import java.util.List;
 
+/**
+ * Rest-контроллер api для доступа к БД из-за приложения
+ */
+
 @RestController
 @RequestMapping(path = "/api")
 public class ApiController {

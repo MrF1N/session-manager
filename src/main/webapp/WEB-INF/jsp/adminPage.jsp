@@ -1,4 +1,5 @@
 <%--
+  Страница просмотра всех сессий и IP
   Created by IntelliJ IDEA.
   User: Grey
   Date: 20.10.2019

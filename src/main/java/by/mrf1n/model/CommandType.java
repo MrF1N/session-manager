@@ -1,5 +1,9 @@
 package by.mrf1n.model;
 
+/**
+ * Клманды общения клиента и сервера(аналог кодов в HTTP)
+ */
+
 public enum CommandType {
     STATUS,
 

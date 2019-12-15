@@ -14,6 +14,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 
+/**
+ * Реализация класса многопоточного сервера
+ */
+
 @Service
 public class ServerService {
 

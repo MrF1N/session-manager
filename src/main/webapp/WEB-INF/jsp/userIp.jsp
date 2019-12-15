@@ -1,4 +1,5 @@
 <%--
+  Страница изменения IP (изменение имени)
   Created by IntelliJ IDEA.
   User: Grey
   Date: 19.10.2019

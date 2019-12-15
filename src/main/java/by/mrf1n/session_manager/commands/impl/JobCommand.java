@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+/**
+ * Реализация класса выполнения комманды Работа(которая даётся после назначения имени)
+ */
+
 @Component
 public class JobCommand extends SocketCommand {
 

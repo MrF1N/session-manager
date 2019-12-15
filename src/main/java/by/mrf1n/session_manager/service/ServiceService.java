@@ -2,6 +2,10 @@ package by.mrf1n.session_manager.service;
 
 import by.mrf1n.model.CommandType;
 
+/**
+ * Вспомогательные методы
+ */
+
 public class ServiceService {
 
     public static boolean anyMatchCommandType(CommandType commandType, CommandType ... types) {

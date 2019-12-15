@@ -4,6 +4,10 @@ import by.mrf1n.session_manager.service.ServerService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+/**
+ * Реализация класса запуска многопоточного сервера из Spring Boot
+ */
+
 @Component
 public class ServerTool implements CommandLineRunner {
 

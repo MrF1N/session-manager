@@ -9,6 +9,10 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+/**
+ * Реализация класса выполнения комманды Статус
+ */
+
 @Component
 public class StatusCommand extends SocketCommand {
 

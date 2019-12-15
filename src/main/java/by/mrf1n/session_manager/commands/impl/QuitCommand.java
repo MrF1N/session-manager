@@ -5,6 +5,10 @@ import by.mrf1n.session_manager.commands.SocketCommand;
 import by.mrf1n.session_manager.model.UserSession;
 import org.springframework.stereotype.Component;
 
+/**
+ * Реализация класса выполнения комманды Выход
+ */
+
 @Component
 public class QuitCommand extends SocketCommand {
     @Override

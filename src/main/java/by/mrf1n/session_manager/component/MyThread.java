@@ -30,6 +30,10 @@ import static by.mrf1n.model.CommandType.BAN_IP;
 import static by.mrf1n.model.CommandType.KICK;
 import static by.mrf1n.model.CommandType.QUIT;
 
+/**
+ * Класс реализации одного потока многопоточного прилодения
+ */
+
 @Component
 @Scope("prototype")
 @Getter

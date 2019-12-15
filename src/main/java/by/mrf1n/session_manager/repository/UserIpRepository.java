@@ -12,6 +12,10 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Репозиторий для IP(работает без БД, сохраняет всё в память)
+ */
+
 @Repository
 public interface UserIpRepository extends JpaRepository<UserIp, String> {
 }

@@ -9,6 +9,10 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+/**
+ * Реализация класса выполнения комманды Ответ(после выолнения работы)
+ */
+
 @Component
 public class AnswerCommand extends SocketCommand {
 

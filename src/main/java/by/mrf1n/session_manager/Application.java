@@ -7,6 +7,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableAsync;
 
+/**
+ * Класс запуска Spring Boot
+ */
+
 @SpringBootApplication
 @EnableAsync
 public class Application {

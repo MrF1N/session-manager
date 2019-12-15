@@ -14,6 +14,10 @@ import javax.persistence.TableGenerator;
 import java.io.Serializable;
 import java.math.BigInteger;
 
+/**
+ * DTO для сущности сессии
+ */
+
 @Entity
 @Table(name = "users")
 public class UserSession implements Serializable {

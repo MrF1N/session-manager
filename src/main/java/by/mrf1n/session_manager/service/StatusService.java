@@ -6,6 +6,10 @@ import by.mrf1n.session_manager.repository.UserIpRepository;
 import by.mrf1n.session_manager.repository.UserSessionRepository;
 import org.springframework.stereotype.Service;
 
+/**
+ * Сервис для работы со статусами IP и сессии и проверки на Бан, Кик и привелегии
+ */
+
 @Service
 public class StatusService {
     private final UserSessionRepository userSessionRepository;

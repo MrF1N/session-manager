@@ -11,6 +11,10 @@ import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * DTO для IP сущности
+ */
+
 @Entity
 @Table(name = "ips")
 public class UserIp implements Serializable {

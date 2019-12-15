@@ -15,6 +15,10 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.math.BigInteger;
 
+/**
+ * Веб-контроллер сайта администраторского интерфейса
+ */
+
 @Controller
 @RequestMapping(path = "/admin")
 public class AdminController {
